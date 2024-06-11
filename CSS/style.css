@@ -1,0 +1,214 @@
+/*
+zuta: rgb(254, 250, 153);
+tamno zelena: rgb(72, 127, 46);
+svetlo zelena:rgb(196, 254, 169);
+*/
+body{
+    background-color: rgb(254, 250, 153);
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(72, 127, 46);
+    flex-direction: column;
+}
+
+.header-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 4vh;
+    background-color: rgb(196, 254, 169);
+}
+
+.header-buttons button{
+    width: 10%;
+    height: 4vh;
+    background-color: rgb(196, 254, 169);
+    color: rgb(72, 127, 46);
+    border: 1px solid rgb(196, 254, 169);
+}
+
+.header-buttons button:hover{
+    color: rgb(196, 254, 169);
+    background-color: rgb(72, 127, 46);
+}
+
+.container-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    position: relative;
+    margin: auto;
+    width: 80%;
+}
+
+.container-main .text-vertical {
+    display: flex;
+    flex-direction: column;
+    font-size: 3em;
+    color: rgb(72, 127, 46);
+    text-align: center;
+}
+
+.container-main .container-card {
+    width: 45%;
+    height: 70vh;
+}
+
+.container-main .container-card #kartaSrbija {
+    position: relative;
+    width: 80%;
+    height: 70vh;
+}
+
+.container-main .container-card img {
+    width: 40px;
+    height: 20px;
+    position: absolute; 
+
+}
+
+.container-main .container-card p {
+    position: absolute; 
+    color: rgb(72, 127, 46);
+    text-align: center;
+}
+
+.container-main .container-card #Srbija {
+    top: 50%;
+    left: 50%;
+    cursor: pointer;
+}
+
+.container-main .container-card #Srbija1 {
+    top: 52%;
+    left: 50%;
+}
+
+.container-main .container-card #Madjarska {
+    top: 2%;
+    left: 40%;
+    cursor: pointer;
+}
+
+.container-main .container-card #Madjarska1 {
+    top: 3%;
+    left: 39%;
+}
+
+.container-main .container-card #Rumunija {
+    top: 13%;
+    left: 60%;
+    cursor: pointer;
+}
+
+.container-main .container-card #Rumunija1 {
+    top: 13%;
+    left: 59%;
+}
+
+.container-main .container-card #Bugarska {
+    top: 80%;
+    left: 65%;
+    cursor: pointer;
+}
+
+.container-main .container-card #Bugarska1 {
+    top: 81%;
+    left: 64.5%;
+}
+
+.container-main .container-card #Makedonija {
+    top: 88%;
+    left: 55%;
+    cursor: pointer;
+}
+
+.container-main .container-card #Makedonija1 {
+    top: 89%;
+    left: 54%;
+}
+
+.container-main .container-card #Albanija {
+    top: 90%;
+    left: 44%;
+    cursor: pointer;
+}
+
+.container-main .container-card #Albanija1 {
+    top: 91%;
+    left: 43.5%;
+}
+
+.container-main .container-card #CrnaGora {
+    top: 73%;
+    left: 38%;
+    cursor: pointer;
+}
+
+.container-main .container-card #CrnaGora1 {
+    top: 74%;
+    left: 37%;
+}
+
+.container-main .container-card #BIH {
+    top: 48%;
+    left: 36%;
+    cursor: pointer;
+}
+
+.container-main .container-card #BIH1 {
+    top: 49%;
+    left: 33%;
+}
+
+.container-main .container-card #Hrvatska {
+    top: 22%;
+    left: 35%;
+    cursor: pointer;
+}
+
+.container-main .container-card #Hrvatska1 {
+    top: 23%;
+    left: 34.5%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: 3vh;
+    background-color: rgb(72, 127, 46);
+    color: white;
+}
+
+.Autoric,
+.Uputstvoic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    height: 15vh;
+    background-color: azure;
+    color: black;
+    margin-top: 5%;
+    border-radius: 25px;
+    padding: 10px;
+}
